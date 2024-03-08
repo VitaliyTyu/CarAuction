@@ -11,7 +11,7 @@
             <div class="col-6 offset-3">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Login</h2>
+                        <h2>Войти</h2>
                     </div>
 
                     <div class="card-body">
@@ -33,18 +33,18 @@
                                     <div class="form-check">
                                         <input class="form-check-input" asp-for="Input.RememberLogin">
                                         <label class="form-check-label" asp-for="Input.RememberLogin">
-                                            Remember My Login
+                                            Запомнить меня
                                         </label>
                                     </div>
                                 </div>
                             }
 
                             <a class="pb-2 d-block" asp-page="../Register/Index" asp-route-returnUrl="@Model.Input.ReturnUrl">
-                                New User? Register here
+                                Регистрация
                             </a>
                             
-                            <button class="btn btn-primary" name="Input.Button" value="login">Login</button>
-                            <button class="btn btn-secondary" name="Input.Button" value="cancel">Cancel</button>
+                            <button class="btn btn-primary" name="Input.Button" value="login">Войти</button>
+                            <button class="btn btn-secondary" name="Input.Button" value="cancel">Отмена</button>
                         </form>
                     </div>
                 </div>
